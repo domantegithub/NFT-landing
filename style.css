@@ -1,0 +1,93 @@
+body {
+    margin: 1.2rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+/* Style the navigation menu */
+.topnav {
+    margin: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Style navigation menu links */
+  .topnav i {
+    color: grey;
+    padding: 12px 0px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  /* Hero blokas */
+.welcome-block {
+    display: flex;
+    margin: 20px auto;
+}
+.welcome-block img {
+    width: 200%;
+}
+.welcome-block h6 {
+    color: darkorchid;
+}
+.welcome-block p {
+    color: grey;
+    padding-bottom: 1rem;
+}
+
+/* Sing up Button style */
+
+.button {
+    color: black;
+    font-size: large;
+    text-decoration: none;
+    border: double 0.3em transparent;
+  border-radius: 15px;
+  background-image: linear-gradient(white, white), 
+                    linear-gradient(to right, blue, darkorchid);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  }
+  
+  .hero {
+      margin: -1.2rem;
+      background: linear-gradient(#e66465, #9198e5);
+      padding: 1.5rem 8rem 0.3rem 1.5rem;
+      text-align: left;
+  }
+
+  .icons {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 2rem;
+  }
+  .products {
+      display: flex;
+      padding-bottom: 5rem;
+      border-bottom: 1px solid #d3d3d3;
+  }
+  .box {
+      background-color: #d3d3d3;
+      border-radius: 14px;
+  }
+  .purple-content {
+      display: flex;
+      justify-content: space-around;
+  }
+  .social-icons a {
+      padding: 0.2rem;
+      text-decoration: none;
+      color: #d3d3d3;
+  }
+  .contact-zone {
+      display: flex;
+      padding-right: 10px;
+  }
+  .contact-zone li {
+      list-style: none;
+
+  }
+  .contact-zone ul {
+    padding-inline-start: 0px;
+  }
