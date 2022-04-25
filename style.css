@@ -1,0 +1,228 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+}
+/* Style the navigation menu */
+.topnav {
+    margin: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+  
+  /* Style navigation menu links */
+  .topnav i {
+    color: grey;
+    padding: 12px 0px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+header a {
+    display: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.welcome-block {
+    align-items: center;
+    background-image: url(./graphic.svg);
+    background-repeat: no-repeat;
+    background-position-x: 8em;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    height: 50vh;
+    background-size: cover;
+}
+.welcome-block h6, .second-welcome-block h6 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #ff3998;
+    padding-bottom: 1em;
+}
+
+.welcome-block h1, .second-welcome-block h1 {
+    font-size: 48px;
+    font-weight: bold;
+    padding-right: 1em;
+}
+.welcome-block p, .second-welcome-block p{
+    color: #555555;
+    font-size: 20px;
+    padding-right: 6em;
+}
+.button {
+    color: black;
+    font-size: large;
+    text-decoration: none;
+    border: double 0.3em transparent;
+  border-radius: 15px;
+  background-image: linear-gradient(white, white), 
+                    linear-gradient(to right, blue, darkorchid);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.free {
+    background-image: url(./background.svg);
+    background-size: cover;
+}
+.free-content h1 {
+    font-weight: 700;
+    font-size: 40px;
+    padding:1em 1em 0 0.5em;
+}
+.free-content p {
+    font-size: 16px;
+    padding: 1em 5em 1em 1.6em;
+}
+.companies img {
+    padding: 1em;
+    max-width: 30%;
+    margin: 0 auto;
+}
+.item-content h1 {
+    font-size: 30px;
+}
+.item-content p {
+    color: #555555;
+}
+.products {
+    display: block;
+    margin: 0 auto;
+    max-width: fit-content;
+    justify-content: space-between;
+}
+.product-picture {
+    background-color: #eeeeee;
+    border-radius: 20px;
+}
+.product-content {
+    display: flex;
+    padding: 0.5em;
+    justify-content: space-between;
+}
+.product-content h6 {
+    font-weight: 500;
+    font-size: 12px;
+    color: #ff8139;
+}
+.product-content h5 {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0.5em 0;
+}
+.product-content p {
+    font-size: 18px;
+    color: #555555;
+}
+.right-side h3 {
+    color: #555555;
+}
+.right-side .row {
+display: flex;
+}
+.second-welcome-block {
+    background-image: url(./greenman.svg);
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position-x: 15em;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    height: 50vh;
+    background-size: 50%;
+}
+.footer-content {
+    font-size: 20px;
+    color: #555555;
+}
+.social-links a {
+    color: #555555;
+}
+
+.social-links a:hover {
+    color: #ff3998;
+}
+.footer-links h3 {
+    font-weight: 700;
+    color: #555555;
+    font-size: 16px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.footer-links li {
+    padding-top: 1em;
+}
+.footer-links a {
+    font-size:16px;
+    color: #555555;
+}
+.footer-links a:hover {
+    color: #ff3998;
+}
+.footer-mobile {
+    display: flex;
+    gap: 3em;
+    align-items: center;
+}
+.copy-rights {
+    color: #555555;
+}
+
+
+@media screen and (min-width:800px){
+    .free-content h1 {
+        padding: 2em 2em 0em 2em;
+    }
+    .free-content p {
+        padding: 4em;
+        font-size: 18px;
+    }
+    .companies {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .products {
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        gap: 3em;
+    }
+    .welcome-block {
+        background-size: 40%;
+        background-position: right;
+    }
+    .second-welcome-block {
+        background-size: 15%;
+        background-position: right;
+    }
+    .block {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-links {
+        gap: 5em;
+        justify-content: center;
+    }
+    .copy-rights {
+        display: flex;
+        justify-content: space-between;
+    }
+}
